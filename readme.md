@@ -21,6 +21,8 @@ Nela temos algumas funções
 
 # Funções
 
+Video de demonstração: https://drive.google.com/file/d/1HuLlfDhvjweNZlIBaR-ySFzvtEdNn5k0/view
+
 ### query
 Utilizada para debug, faz queries SQL no data frame, porem de maneira muito lenta
 
