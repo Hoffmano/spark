@@ -24,12 +24,12 @@ Nela temos algumas funções
 Video de demonstração: https://drive.google.com/file/d/1HuLlfDhvjweNZlIBaR-ySFzvtEdNn5k0/view
 
 ### query
-Utilizada para debug, faz queries SQL no data frame, porem de maneira muito lenta
+Utilizada para debug, faz queries SQL no data frame, porem de maneira muito lenta.
 
 ---
 
 ### filter
-Utilizada para filtrar parte do data frame, equivalente a um where do SQL
+Utilizada para filtrar parte do data frame, equivalente a um where do SQL.
 
 #### Exemplo de uso
 ```
@@ -43,7 +43,7 @@ Com isso passaremos a ter salvo no nosso SparkDataFrame o conjunto de dados resu
 ---
 
 ### show
-Comando utilizado para mostrar no terminal o conjunto de dados selecionado
+Comando utilizado para mostrar no terminal o conjunto de dados selecionado.
 
 #### Exemplo de uso
 ```
@@ -56,7 +56,7 @@ Imprime no terminal o conjunto de dados previamente selecionado
 ---
 
 ### media
-Comando utilizado calcular a média de alguma coluna numérica do conjunto de dados selecionado
+Comando utilizado calcular a média de alguma coluna numérica do conjunto de dados selecionado.
 
 #### Exemplo de uso
 ```
@@ -65,12 +65,12 @@ Comando utilizado calcular a média de alguma coluna numérica do conjunto de da
 ```
 
 #### Resultado
-Calcula a média da coluna do conjunto de dados selecionado
+Calcula a média da coluna do conjunto de dados selecionado.
 
 ---
 
 ### desvio padrao
-Comando utilizado calcular o desvio padrão de alguma coluna numérica do conjunto de dados selecionado, alem de plotar o gráfico da distribuição do mesmo
+Comando utilizado calcular o desvio padrão de alguma coluna numérica do conjunto de dados selecionado, alem de plotar o gráfico da distribuição do mesmo.
 Para usar este comando adequadamente é necessário calcular a média da coluna previamente
 
 #### Exemplo de uso
@@ -85,7 +85,7 @@ Para usar este comando adequadamente é necessário calcular a média da coluna 
 ---
 
 ### quadrados minimos
-Comando utilizado calcular os quadrados mínimos entre duas colunas de dados numéricas
+Comando utilizado calcular os quadrados mínimos entre duas colunas de dados numéricas.
 Para visualizar o resultado deste comando utilize o comando `plot`
 
 #### Exemplo de uso
@@ -98,7 +98,7 @@ Para visualizar o resultado deste comando utilize o comando `plot`
 ---
 
 ### agrupar
-Comando utilizado agrupar o conjunto de dados selecionado aplicando alguma determinada função
+Comando utilizado agrupar o conjunto de dados selecionado aplicando alguma determinada função.
 Opções:
 - avg
 - min
@@ -140,7 +140,7 @@ Comando utilizado exibir o grafico calculado pela função `quadrados minimos`
 ```
 
 ### clear
-Comando utilizado limpar o conjunto de dados selecionado, sendo necessário fazer um novo filter para popula-lo novamente
+Comando utilizado limpar o conjunto de dados selecionado, sendo necessário fazer um novo filter para populá-lo novamente.
 
 #### Exemplo de uso
 ```
@@ -148,7 +148,7 @@ Comando utilizado limpar o conjunto de dados selecionado, sendo necessário faze
 ```
 
 ### schema
-Comando utilizado exibir o schama do data frame selecionado
+Comando utilizado exibir o schema do data frame selecionado, sendo isso o nome das colunas do Dataframe e o seu tipo de variável.
 
 #### Exemplo de uso
 ```
