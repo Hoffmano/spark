@@ -21,8 +21,6 @@ Nela temos algumas funções
 
 # Funções
 
----
-
 ### query
 Utilizada para debug, faz queries SQL no data frame, porem de maneira muito lenta
 
