@@ -6,6 +6,7 @@ import numpy as np #<--------------------------somente cliente
 import matplotlib.pyplot as plt #<-------------------------somente cliente
 import pandas as pd #<------------------------- acho que só o cliente?
 import traceback # <---------------------somente cliente
+import scipy.stats as stats
 
 
 class SparkDataframe: #--------------------------------------------------------------------o servidor   
@@ -121,6 +122,13 @@ while (not quit):
             valor = rdd.desvioPadrao(temp)
             rdd.dP = valor
             print(valor)
+            print('Preparando gráfico...')
+            
+            mu = rdd.med
+            sigma = valor
+            x = np.linspace(mu - 3*sigma, mu + 3*sigma, 100)
+            plt.plot(x, stats.norm.pdf(x, mu, sigma))
+            plt.show()
 
         elif entrada == "quadrados minimos": #<-------------------- Não faço a menor caralha ideia de como implementar.
             temp1 = input("> Diga qual a coluna de X:")
@@ -150,8 +158,8 @@ while (not quit):
 
                 plt.plot(x, y_media, '-r', label='a + bx')
 
-                #a ser feito: plot do desvio padrão                
-                
+                #a ser feito: plot do desvio padrão
+
                 plt.title('Resultante dos quadrados mínimos')
                 plt.xlabel('x', color='#1C2833')
                 plt.ylabel('y', color='#1C2833')
