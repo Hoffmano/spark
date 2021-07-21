@@ -25,6 +25,7 @@
 # desvio padrao
 
 ![image](https://user-images.githubusercontent.com/30511353/126570404-e1f74cac-79f9-4ab9-a9d0-d7fa571f90aa.png)
+
 ![image](https://user-images.githubusercontent.com/30511353/126570708-08293f93-2b25-441b-b043-180b5a63054e.png)
 
 
