@@ -19,6 +19,8 @@ A classe SparkDataFrame foi uma classe desenvolvida para encapsular todo o ferra
 
 Nela temos algumas funções
 
+# Funções
+
 ---
 
 ### query
