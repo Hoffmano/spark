@@ -14,6 +14,33 @@ Para o desenvolvimento desta aplicação foi utilizado Python, a escolha foi fei
 - traceback
 - scipy
 
+## Como funciona
+Spark é um framework para processamento de dados em grande escala.
+
+O Spark foi criado tentando resolver as limitações do MapReduce
+(by doing processing in-memory, reducing the number of steps in a job, and by reusing data across multiple parallel operations) 
+
+Em apenas um passo, os dados são lidos, as operações são feitas e os resultados reescritos.
+
+Escrito em Java, interpretado por Python, Scala e R(parcialmente).
+
+O driver roda um processo.
+
+### SQL e Big Data
+Em cima dos objetos de Row do RDD, há a abstração Dataframe.
+Permite a integração de consultas SQL padrão.
+Com otimização de custo, tornando as queries rápidas.
+O núcleo do Spark torna as queries tolerantes a falhas.
+
+
+Na inicialização, declaramos cores como Workers, que serão usados por completo quando chamados.
+
+Cada Worker também é um processo.
+
+O Standalone Cluster Manager administrará como os Workers trabalharão e dividirá a carga de trabalho.
+
+
+
 ## Spark Data Frame
 A classe SparkDataFrame foi uma classe desenvolvida para encapsular todo o ferramental necessário para a analise dos dados em questão.
 
