@@ -41,8 +41,9 @@ O Standalone Cluster Manager administrará como os Workers trabalharão e dividi
 
 # Como Utilizar
 
-1. Alterar na linha do arquivo `modulo_spark.py` colocando a pasta que contenha os dados a serem analisados
-2. Iniciar o terminal do programa utilizando o comando padrão do python
+1. Alterar na `linha 15` do arquivo `modulo_spark.py` colocando a pasta que contenha os dados a serem analisados como seque o exemplo
+    - Os dados devem estar descompactados em pastas com o nome do ano, e dentro das pastas dos anos devem contem os csvs
+3. Iniciar o terminal do programa utilizando o comando padrão do python
 
 ## Spark Data Frame
 A classe SparkDataFrame foi uma classe desenvolvida para encapsular todo o ferramental necessário para a analise dos dados em questão.
@@ -52,8 +53,6 @@ Nela temos algumas funções
 # Funções
 
 É possivel visualizar exemplos das funções no arquivo `examples.md`
-
-Video de demonstração: https://drive.google.com/file/d/1HuLlfDhvjweNZlIBaR-ySFzvtEdNn5k0/view
 
 ### query
 Utilizada para debug, faz queries SQL no data frame, porem de maneira muito lenta.
