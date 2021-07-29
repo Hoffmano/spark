@@ -39,7 +39,10 @@ Cada Worker também é um processo.
 
 O Standalone Cluster Manager administrará como os Workers trabalharão e dividirá a carga de trabalho.
 
+# Como Utilizar
 
+1. Alterar na linha do arquivo `modulo_spark.py` colocando a pasta que contenha os dados a serem analisados
+2. Iniciar o terminal do programa utilizando o comando padrão do python
 
 ## Spark Data Frame
 A classe SparkDataFrame foi uma classe desenvolvida para encapsular todo o ferramental necessário para a analise dos dados em questão.
