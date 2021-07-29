@@ -22,6 +22,7 @@ Nela temos algumas funções
 # Funções
 
 É possivel visualizar exemplos das funções no arquivo `examples.md`
+
 Video de demonstração: https://drive.google.com/file/d/1HuLlfDhvjweNZlIBaR-ySFzvtEdNn5k0/view
 
 ### query
