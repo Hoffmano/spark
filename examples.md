@@ -1,8 +1,8 @@
-# Schame
+# schema
 
 ![image](https://user-images.githubusercontent.com/30511353/126570052-1d23078d-5745-46bb-b2f4-23d7b64a2db0.png)
 
-# Filter
+# filter
 
 ![image](https://user-images.githubusercontent.com/30511353/126570204-49c6b3fc-720a-4da9-af2e-57649fae59ca.png)
 
