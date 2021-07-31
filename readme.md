@@ -40,10 +40,10 @@ Cada Worker também é um processo.
 O Standalone Cluster Manager administrará como os Workers trabalharão e dividirá a carga de trabalho.
 
 # Como Utilizar
-
+0. DETALHE: O Pyspark não consegue rodar no modo Standalone, portanto é necessária a instalação de uma biblioteca extra, como o Hadoop, o YARN ou o Apache Mesos. No caso do Windows, o terminal falará sobre a necessidade da instalação de algo chamado "winutils.exe", que pode ser encontrado aqui: https://github.com/cdarlint/winutils
 1. Alterar na `linha 15` do arquivo `modulo_spark.py` colocando a pasta que contenha os dados a serem analisados como seque o exemplo
     - Os dados devem estar descompactados em pastas com o nome do ano, e dentro das pastas dos anos devem contem os csvs
-3. Iniciar o terminal do programa utilizando o comando padrão do python
+2. Iniciar o terminal do programa utilizando o comando padrão do python
 
 ## Spark Data Frame
 A classe SparkDataFrame foi uma classe desenvolvida para encapsular todo o ferramental necessário para a analise dos dados em questão.
